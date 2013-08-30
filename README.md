@@ -11,9 +11,9 @@ Innehållsförteckning:
 * meta -- här finns dokument om kursen, kursmål, etc. 
 * uppgifter 
   - fas0 -- alla uppgifter i fas 0
-    + sprint0 -- den obligatoriska uppgiften för fas 0/sprint 0
-    + sprint1 -- tre uppgifter att välja mellan för sprint 1
-    + sprint2 -- tre uppgifter att välja mellan för sprint 2
+    * sprint0 -- den obligatoriska uppgiften för fas 0/sprint 0
+    * sprint1 -- tre uppgifter att välja mellan för sprint 1
+    * sprint2 -- tre uppgifter att välja mellan för sprint 2
   - fas1 -- alla uppgifter i fas 1 (tom vid kursstart)
   - fas2 -- projektuppgiften samt extrauppgifter för fas 2
 * handouts -- allt utdelat instuderingsmaterial 
