@@ -49,6 +49,7 @@
 ; (set-cursor-color "white")
 
 ;; Set a custom color theme (2013-08-20)
+;; NB! Needs Emacs 24.X! 
 ;; You can also try using a custom theme, which changes more colors
 ;; than just the three above. For a list of all available themes,
 ;; press "M-x customize-themes <RET>". You can also use a theme in
