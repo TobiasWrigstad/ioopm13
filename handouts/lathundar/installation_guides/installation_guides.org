@@ -4,9 +4,9 @@
   [[elisp:org-html-export-to-html][After updating this file, click this link to generate html]]
 
 * Installing IOOPM Software
-  There is a frequent question about how to install on a variety of
-  operating systems. We therefore decided to provide this little guide
-  for your convenience.
+  There is a frequent question about how to install gcc and emacs on a
+  variety of operating systems. We therefore decided to provide this
+  little guide for your convenience.
 
 ** Ubuntu
    - Open a terminal :: Click on the Ubuntu Logo in the top right and
@@ -14,7 +14,7 @@
         advertisements you're seeing. Now press <enter>.
 
         [[./ubuntu_open_terminal.png]]
-   - Install everything :: execute this following line, then enter your password:
+   - Install GCC + Emacs :: execute this following line, then enter your password:
 #+BEGIN_SRC bash
    sudo apt-get install build-essential emacs24
 #+END_SRC
@@ -26,7 +26,7 @@
     - Install Xcode :: Type "xcode<enter>" into the search bar in the
                        top right. Click on the Xcode application and
                        on the install button. This will give you gcc,
-                       alongside apple's Xcode IDE.
+                       alongside Apple's Xcode IDE.
                        
                        [[./xcode_in_app_store.png]]
 *** Emacs
@@ -42,7 +42,7 @@
     - Create a Virtualbox Virtual Machine :: Start Virtualbox and
          click "New". Call your machine "Ubuntu" and the wizard will
          walk you through it.
-    - Pick the ISO :: Use the ubuntu-iso as virtual CD :: go to the
+    - Pick the ISO :: Use the ubuntu-iso as virtual CD :: Go to the
          settings of your newly created Virtual Machine, click on the
          CD icon. Choose the .iso file containing your ubuntu
          distribution.
@@ -57,6 +57,6 @@
                         contents of the hard drive: yes it is, the
                         "hard drive" of your ubuntu is just a file on
                         your actual hard drive.)
-    - Log in and continue at the instructions for Ubuntu above. 
+    - Goto Ubuntu :: Log in and continue at the instructions for Ubuntu above.
 
       *Congratulations, you're almost done!*
