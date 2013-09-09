@@ -29,6 +29,11 @@
                        alongside Apple's Xcode IDE.
                        
                        [[./xcode_in_app_store.png]]
+    - Install Command Line Tools :: start Xcode, enter the "Settings"
+         dialog (by pressing [apple-key+,]) and go to the "Downloads"
+         section. There, install the "Command Line Tools".
+
+         [[./osx_commandline_tools.png]]
 *** Emacs
     Follow the instructions in the piazza thread [[https://piazza.com/class/hkjhvzyqnp52on?cid%3D11][Emacs för mac samt
     iCal-prenumerationer]].
