@@ -1,0 +1,62 @@
+-*- mode: org -*-
+
+* Control Center (expand by pressing <TAB>)                        :noexport:
+  [[elisp:org-html-export-to-html][After updating this file, click this link to generate html]]
+
+* Installing IOOPM Software
+  There is a frequent question about how to install gcc and emacs on a
+  variety of operating systems. We therefore decided to provide this
+  little guide for your convenience.
+
+** Ubuntu
+   - Open a terminal :: Click on the Ubuntu Logo in the top right and
+        type "terminal". Pause a second to complain about the
+        advertisements you're seeing. Now press <enter>.
+
+        [[./ubuntu_open_terminal.png]]
+   - Install GCC + Emacs :: execute this following line, then enter your password:
+#+BEGIN_SRC bash
+   sudo apt-get install build-essential emacs24
+#+END_SRC
+
+      *Congratulations, you're done!*
+** Mac OS X
+*** GCC
+    - Open the App Store :: press [apple-key+<space>] and type "App Store<enter>"
+    - Install Xcode :: Type "xcode<enter>" into the search bar in the
+                       top right. Click on the Xcode application and
+                       on the install button. This will give you gcc,
+                       alongside Apple's Xcode IDE.
+                       
+                       [[./xcode_in_app_store.png]]
+*** Emacs
+    Follow the instructions in the piazza thread [[https://piazza.com/class/hkjhvzyqnp52on?cid%3D11][Emacs för mac samt
+    iCal-prenumerationer]].
+
+      *Congratulations, you're done!*
+** Windows
+*** Virtualbox
+    - Virtualbox :: Download and install [[https://www.virtualbox.org/][Virtualbox]].
+    - Ubuntu :: Download an up-to-date version of ubuntu as .iso-file
+                from [[http://www.ubuntu.com]].
+    - Create a Virtualbox Virtual Machine :: Start Virtualbox and
+         click "New". Call your machine "Ubuntu" and the wizard will
+         walk you through it.
+    - Pick the ISO :: Use the ubuntu-iso as virtual CD :: Go to the
+         settings of your newly created Virtual Machine, click on the
+         CD icon. Choose the .iso file containing your ubuntu
+         distribution.
+
+         [[./windows_pick_iso.png]]
+
+         Close the settings dialog.
+    - Start the Virtual Machine :: Doubleclick on the Virtual Machine
+         you created and configured, it will boot. Exciting, right? :)
+    - Install Ubuntu :: Just follow the simple wizard and you'll be
+                        fine. (Btw, when asked whether it's ok to delete the
+                        contents of the hard drive: yes it is, the
+                        "hard drive" of your ubuntu is just a file on
+                        your actual hard drive.)
+    - Goto Ubuntu :: Log in and continue at the instructions for Ubuntu above.
+
+      *Congratulations, you're almost done!*
