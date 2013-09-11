@@ -1,54 +1,56 @@
-#include <math.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
+	#include <math.h>
+	#include <stdlib.h>
+	#include <stdio.h>
+	#include <time.h>
 
-#ifdef ANIMATE
-#include <X11/Xlib.h>
-#include <X11/Xutil.h>
+	#ifdef ANIMATE
+	#include <X11/Xlib.h>
+	#include <X11/Xutil.h>
 
-#define X_SIZE 800
-#define Y_SIZE 800
-#endif
+	#define X_SIZE 800
+	#define Y_SIZE 800
+	#endif
 
-#define prec float
-#define PI 3.14159265359
-
-
-static prec gdt = 0.0001;
-
-typedef struct {
-} body;
+	#define prec float
+	#define PI 3.14159265359
 
 
-static void update(body* a, prec dt)
-{
-}
+	static prec gdt = 0.0001;
+
+	typedef struct {
+	} body;
 
 
-static void resetForce(body* b) {} 
-
-static void addForce(body* a, body* b)
-{
-}
-
-static prec newRand() 
-{
-	prec r = (prec)((double)rand()/(double)RAND_MAX);
-	return r;
-}
+	static void update(body* a, prec dt)
+	{
+	}
 
 
-void init(int N, body* star)
-{
+	static void resetForce(body* b) {} 
 
-}
+	static void addForce(body* a, body* b)
+	{
+	}
+
+	static prec newRand() 
+	{
+		prec r = (prec)((double)rand()/(double)RAND_MAX);
+		return r;
+	}
+
+
+	void init(int N, body* star)
+	{
+
+	}
 
 static void updateForces(int N, body* star)
 {
 }
 
-
+// Manually copy coordinates from stars into points (to be drawn).
+// Look at the manual file for XPoint to see which 
+// format XPoint accepts its coordinates in.
 #ifdef ANIMATE
 static void copyToXBuffer(body* star, XPoint* points, int N)
 {
