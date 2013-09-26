@@ -34,3 +34,6 @@ build/remember/Mnemonics.class: remember/Mnemonics.java
 
 build/remember/Numbers.class: remember/Numbers.java
 	$(JAVA_COMPILER) $(JAVA_OPTIONS) $<
+
+run: remember
+	java -cp build remember.Mnemonics
