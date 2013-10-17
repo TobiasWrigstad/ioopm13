@@ -1,25 +1,47 @@
--*- mode: org -*-
+* -*- mode: org -*-                                                :noexport:
 
 * Control Center (expand by pressing <TAB>)                        :noexport:
   [[elisp:org-html-export-to-html][After updating this file, click this link to generate html]]
 
 * Installing IOOPM Software
-  There is a frequent question about how to install gcc and emacs on a
-  variety of operating systems. We therefore decided to provide this
-  little guide for your convenience.
+  There is a frequent question about how to install gcc, emacs and --
+  *recently* -- the Java Development Kit on a variety of operating
+  systems. We therefore decided to provide this little guide for your
+  convenience.
 
 ** Ubuntu
-   - Open a terminal :: Click on the Ubuntu Logo in the top right and
-        type "terminal". Pause a second to complain about the
-        advertisements you're seeing. Now press <enter>.
-
-        [[./ubuntu_open_terminal.png]]
-   - Install GCC + Emacs :: execute this following line, then enter your password:
+*** Gcc + Emacs
+    - Open a terminal :: Click on the Ubuntu Logo in the top right and
+         type "terminal". Pause a second to complain about the
+         advertisements you're seeing. Now press <enter>.
+ 
+         [[./ubuntu_open_terminal.png]]
+    - Install GCC + Emacs :: execute this following line, then enter your password:
 #+BEGIN_SRC bash
-   sudo apt-get install build-essential emacs24
+sudo apt-get install build-essential emacs24
 #+END_SRC
 
-      *Congratulations, you're done!*
+*** Java (JDK)
+    - Open a terminal :: Click on the Ubuntu Logo in the top right and
+         type "terminal". Now press <enter>.
+    - execute this line, then enter your password:
+#+BEGIN_SRC bash
+sudo apt-get install openjdk-7-jdk
+#+END_SRC
+
+    - Confirm that the JDK is installed :: The line
+
+#+BEGIN_SRC bash
+java --version
+#+END_SRC
+
+      should output something similar to:
+
+#+BEGIN_SRC bash
+java version "1.7.0_21"
+Java(TM) SE Runtime Environment (build 1.7.0_21-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 23.21-b01, mixed mode)
+#+END_SRC
 ** Mac OS X
 *** GCC
     - Open the App Store :: press [apple-key+<space>] and type "App Store<enter>"
@@ -39,6 +61,26 @@
     iCal-prenumerationer]].
 
       *Congratulations, you're done!*
+*** Java (JDK)
+    - Download the .dmg :: Go to
+         http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+         and download the installer for OS X.
+    - Install :: Once downloaded, open the .dmg file and follow the
+                 installation instructions. You will be prompted to
+                 enter your password.
+    - Confirm that the JDK is installed :: The line
+
+#+BEGIN_SRC bash
+java --version
+#+END_SRC
+
+      should output something similar to:
+
+#+BEGIN_SRC bash
+java version "1.7.0_21"
+Java(TM) SE Runtime Environment (build 1.7.0_21-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 23.21-b01, mixed mode)
+#+END_SRC
 ** Windows
 *** Virtualbox
     - Virtualbox :: Download and install [[https://www.virtualbox.org/][Virtualbox]].
